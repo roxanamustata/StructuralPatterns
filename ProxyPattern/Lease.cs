@@ -8,7 +8,11 @@ namespace ProxyPattern
 {
     public class Lease
     {
-
+        // A static factory method that returns a protected proxy around the lease
+        public static Lease CreateLease(string name, string content)
+        {
+            return new ProtectedLease(name, content);
+        }
 
         protected Lease(string name, string content)
         {
@@ -23,6 +27,8 @@ namespace ProxyPattern
         public DateTime DateReviewed { get; private set; }
 
 
+        // Two methods for updating the lease:
+
         internal virtual void CompleteReview(User editor)
         {
             DateReviewed = DateTime.UtcNow;
@@ -33,5 +39,9 @@ namespace ProxyPattern
             Name = newName;
         }
 
+        public override string ToString()
+        {
+            return $"Name: {Name},\nContent: {Content},\nCreated at: {DateCreated},\nReviewed at: {DateReviewed}";
+        }
     }
 }

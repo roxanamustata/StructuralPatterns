@@ -2,6 +2,6 @@
 {
     public enum Role
     {
-        Editor, Creator
+        Author, Editor
     }
 }
