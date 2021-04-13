@@ -32,5 +32,12 @@
         {
             _clauses.Set();
         }
+
+        public void GenerateLease()
+        {
+            SetParties();
+            SetPremises();
+            SetRent();
+        }
     }
 }

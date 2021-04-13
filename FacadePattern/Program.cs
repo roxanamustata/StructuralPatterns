@@ -7,10 +7,10 @@ namespace FacadePattern
         static void Main(string[] args)
         {
             var leaseFacade = new LeaseFacade();
+            leaseFacade.GenerateLease();
+            Console.WriteLine("-------------------");
             leaseFacade.SetClauses();
-            leaseFacade.SetParties();
-            leaseFacade.SetRent();
-            leaseFacade.SetPremises();
+           
         }
     }
 }
