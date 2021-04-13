@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{6784FA9D-A4FE-467B-9830-60BA1FE4D135}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{D914119E-E8DE-4CDF-93E6-B82FC8C8CDE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6784FA9D-A4FE-467B-9830-60BA1FE4D135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6784FA9D-A4FE-467B-9830-60BA1FE4D135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6784FA9D-A4FE-467B-9830-60BA1FE4D135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D914119E-E8DE-4CDF-93E6-B82FC8C8CDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D914119E-E8DE-4CDF-93E6-B82FC8C8CDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D914119E-E8DE-4CDF-93E6-B82FC8C8CDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D914119E-E8DE-4CDF-93E6-B82FC8C8CDE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
